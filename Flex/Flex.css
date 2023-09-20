@@ -1,0 +1,56 @@
+@media(min-width : 700px) {
+    .container {
+        display: flex;
+        /* 
+        align-items: flex-start; 
+        align-items: stretch; 
+        */
+        justify-content : center;
+        width: 90%;
+        
+    }
+    .container1 {
+        display: flex;
+        justify-content : space-around;
+    }
+}
+
+.container div, .container1 div{
+    border : 1px rgb(106, 150, 230) solid;
+    padding : 12px;
+
+}
+.part1 {
+    flex : 3;
+    order : 2;
+}
+
+.part2 {
+    flex : 2;
+    order : 3;
+}
+
+.part3 {
+    flex : 2;
+}
+
+.container1-part {
+    width: 40%;
+}
+
+body{
+    background-color: #bbdfee;
+  }
+
+  h2{
+    color: #3080d4;
+    font-family: inherit;
+ 
+  }
+  
+  p{
+    color: #0760b6;
+    font-style: italic;
+    font-size: 19px;
+  }
+  
